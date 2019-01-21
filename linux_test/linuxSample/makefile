@@ -10,7 +10,7 @@ test : linux_test.o
 	$(CC) $(CFLAGS) test linux_test.o -ldl -lpthread -lstdc++
 
 linux_test.o : linux_test.cpp
-	$(CC) -c linux_test.cpp -o linux_test.o
+	$(CC) -c linux_test.cpp -g -o linux_test.o
 
 clean:
 	-rm -f *.o test
