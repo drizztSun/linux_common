@@ -12,7 +12,7 @@ using namespace std;
 #include <unistd.h>
 #include <pthread.h>
 
-/*
+
 void testLibfunc();
 
 void calldllfunc();
@@ -24,7 +24,7 @@ void testPipe();
 void testDllLoadDynamic();
 
 void testSignal2();
-*/
+
 
 int main() {
 
