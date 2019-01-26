@@ -4,7 +4,7 @@
 
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOER("SYX");
+MODULE_AUTHOR("SYX");
 MODULE_DESCRIPTION("This is just a hello module\n");
 
 
