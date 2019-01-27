@@ -1,4 +1,4 @@
-./Linux_test
+Linux_test
 */*.d
 */*.o
 */*/*.d
