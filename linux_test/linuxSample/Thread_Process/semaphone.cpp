@@ -6,7 +6,7 @@
 #include <sys/ipc.h>
 #include <sys/sem.h>
 
-
+#include "semun.h"
 
 static int sem_id;
 
@@ -41,8 +41,8 @@ int semphore_v() {
 }
 
 int set_semvalue() {
-	union semun sem_union;
-	sem_union. = 1;
+	semun sem_union;
+	sem_union.val = 1;
 
 	if (semctl(sem_id, 0, SETVAL, sem_union) == -1)
 		return 0;

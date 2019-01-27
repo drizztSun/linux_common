@@ -1,0 +1,12 @@
+18:37:45 **** Build of configuration Debug for project linux_test ****
+make all 
+Building file: ../src/linux_test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/linux_test.d" -MT"src/linux_test.o" -o "src/linux_test.o" "../src/linux_test.cpp"
+Finished building: ../src/linux_test.cpp
+ 
+Building target: linux_test
+Invoking: GCC C++ Linker
+g++  -o "linux_test"  ./src/linux_test.o   
+Finished building target: linux_test
+ 

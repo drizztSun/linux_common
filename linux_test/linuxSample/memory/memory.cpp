@@ -24,10 +24,7 @@ void memoryAllocation() {
 }
 
 
-
-
-
-
 void testMemory() {
 
+	memoryAllocation();
 }
