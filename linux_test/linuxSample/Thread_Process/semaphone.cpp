@@ -41,7 +41,7 @@ int semphore_v() {
 }
 
 int set_semvalue() {
-	semun sem_union;
+	union semun sem_union;
 	sem_union.val = 1;
 
 	if (semctl(sem_id, 0, SETVAL, sem_union) == -1)
@@ -54,7 +54,6 @@ int set_semvalue() {
 
 void test_semphone() {
 
-	int i;
 	int pause_time;
 	char op_char = 'O';
 
