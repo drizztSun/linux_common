@@ -12,11 +12,18 @@ using namespace std;
 
 void test_semphone();
 
+extern "C" {
+	void test_epoll();
+}
+
+
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 
-	test_semphone();
+	// test_semphone();
+
+	test_epoll();
 
 	return 0;
 }

@@ -27,4 +27,5 @@ src/IPC \
 src \
 src/Thread_Process \
 src/memory \
+src/network \
 
